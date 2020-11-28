@@ -6,10 +6,11 @@ import user from "./data/user.json";
 import statisticalData from "./data/statistical-data.json";
 import friends from "./data/friends.json";
 import transactions from "./data/transactions.json";
+import s from "./App.module.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className={s.App}>
       <Profile
         name={user.name}
         tag={user.tag}
