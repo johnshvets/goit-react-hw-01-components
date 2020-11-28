@@ -1,0 +1,18 @@
+.transactionHistory {
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.tableTitle {
+  background-color: rgb(78, 140, 212);
+  color: #fff;
+}
+
+.tableBody {
+  background-color: #fff;
+}
+
+.row:nth-child(2n) {
+  background-color: rgb(241, 241, 241);
+}
